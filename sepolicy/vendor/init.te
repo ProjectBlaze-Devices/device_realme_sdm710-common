@@ -20,7 +20,6 @@ allow init update_engine_exec:process { sigkill transition };
 allow init hwservicemanager:binder { call transfer };
 allow init vfat:dir search;
 
-allow init hal_power_service:service_manager { add };
 allow init proc_touchpanel:file { open  write };
 allow init servicemanager:binder { call  transfer };
-allow init vendor_file:file { execute_no_trans };
+
