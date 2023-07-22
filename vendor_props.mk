@@ -120,6 +120,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.vulkan=adreno \
     ro.hwui.render_ahead=20 \
     debug.sf.treat_170m_as_sRGB=1 \
+    debug.sf.enable_transaction_tracing=false \
     ro.hardware.egl=adreno
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
