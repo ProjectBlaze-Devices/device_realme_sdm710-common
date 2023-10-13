@@ -14,6 +14,8 @@ BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
 COMMON_PATH := device/realme/sdm710-common
 
+BUILD_BROKEN_CLANG_PROPERTY := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
