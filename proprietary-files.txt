@@ -790,6 +790,9 @@ vendor/lib64/libspcom.so|d29924f33878c59364362e023c9a53fa40bfeade
 vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
 vendor/lib/libspcom.so|b50bdf06832965b7e7a0371eb1232e1b171eb4fd
 
+# Protobuf - from redfin - TQ3A.230901.001/10750268
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|4f4ad5b013daabbbfbf7be7419fb60c28a59c36c
+
 # Qualcomm Display Utils - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|68275fb5e4388e3d624ce3dcb941bd623d12ddfe
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|3b9a0b71944c6b8d9a0b3a976a9ff09ba3864fb4
