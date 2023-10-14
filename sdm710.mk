@@ -507,9 +507,13 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
 
-# VNDK-SP
+# VNDK
+PRODUCT_PRODUCT_VNDK_VERSION := current
+PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
+
 PRODUCT_PACKAGES += \
-    vndk-sp
+    vndk_package \
+    com.android.vndk.current.on_vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
