@@ -409,7 +409,7 @@ PRODUCT_PACKAGES += \
 
 # QNS
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # QTI
 PRODUCT_COPY_FILES += \
